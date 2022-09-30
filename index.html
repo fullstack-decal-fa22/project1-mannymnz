@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Muñoz">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="page3.css">
+    <script src="form.js"></script>
+</head>
+<body>
+ 
+    <div class="links">
+        <div class="linkBox box1" >
+            Resume
+        </div>
+        <div class="linkBox box2">
+            About
+        </div>
+        <div class="linkBox box3">
+            Work
+        </div>
+    </div>
+
+    <div class="page1">
+
+        <img src="images/bearEmote.png" alt="bear" class="bearImg">
+
+        <img src="images/self.jpg" alt="me" id="self_pic">
+
+        <div id="aboutContainer">
+            <h3>
+                Hello, My Name Is
+            </h3>
+            <h1>
+                Manuel Muñoz
+            </h1>
+
+            <h5>
+                I'm a 2nd year student at UC Berkeley studying <br>
+                electrical engineering and computer science. <br>
+                I have a passion for both software and<br>
+                computer engineering.
+            </h5>
+
+            <label class="contactMe">Contact Me</label>
+
+        </div>
+
+        <br>
+        <br>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="randomLink">Best Website</a>
+        <div class="scrollForMore">
+            <h4>Scroll For More</h4>
+            <h6> ╲╱ </h6>
+        </div>
+        
+        <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
+        <form class="checkBox" action="submitscript.php" onsubmit="bearMode()" target="dummyframe">
+            <label>Check For Bear Mode:</label>
+            <input id="checkBox" type="checkbox">
+            <input type="submit">
+        </form>
+
+        <div class="leftBackground"></div>
+        <div class="rightBackground"></div>
+        <button class="mysteryButton" onclick="alert('Surprise!')">Mystery Button</button>
+        
+    </div>
+
+    
+    <div class="page2">
+        <br>
+        <br>
+        <label class="clubLabel1">Clubs/Activites</label>
+        <label class="clubLabel2">Projects</label>
+        <div class="workBox">
+            <div class="clubLogoContainer">
+                <h1 class="clubHeader" >STAC</h1>
+                <img src="images/stac.png" alt="stac" class="clubImg">
+                <h1 class="clubHeader">HES</h1>
+                <img src="images/HES.png" alt="HES" class="clubImg">
+                <h1 class="clubHeader">Club</h1>
+                <img src="images/O.jpeg" alt="O" class="clubImg">
+            </div>
+            <div class="clubDescriptions">
+                <div class="description">Member of the high altitude ballon team competing
+                                        in NASA's floating dragon competition. Specifically work 
+                                        in the electronics and circuity needed for this project
+                                         
+                </div>
+                <div class="description">Social club with the goal of bringing together
+                                        hispanic stem major to celebrate culture. 
+                </div>
+                <div class="description">Social club with the aim of bringing people
+                                        together through origami and improving people's skills.
+                </div>
+            </div>
+            <div class="projectlogoContainer">
+               <h1 class="clubHeader projectLogo">Gitlet</h1>
+               <img src="images/Git.png" alt="git" class="clubImg projectLogo">
+               <h1 class="clubHeader projectLogo" style="font-size: 20px">Scheme Interp.</h1>
+               <img src="images/Scheme.png" alt="Scheme" class="clubImg projectLogo">
+               <h1 class="clubHeader projectLogo">BYOW</h1>
+               <img src="images/BYOW.png" alt="BYOW" class="clubImg projectLogo">
+            </div>
+            <div class="clubDescriptions">
+                <div class="description">Version control system similar to git, 
+                                        allowing for commits, branches, and merges.
+                                        Experience with a large codebase from scratch.
+                </div>
+                <div class="description">
+                                        Interpreter for the scheme language, including 
+                                        functionality for tail recusion.
+                </div>
+                <div class="description">Top-down perspective video game with
+                                        randomly generated worlds based on a seed. Experience
+                                        with full development process of software engineering.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page3">
+        <h2 class="contactLabel">Contact Info:</h2>
+        <div class="contactGrid">
+            <img src="images/Gmail.png" alt="gmail" class="contactImg">
+            <label>mannymnz@Berkeley.Edu</label>
+            <img src="images/LinkedIn.png" alt="LinkedIn" class="contactImg">
+            <a href="https://www.linkedin.com/in/manuel-munoz-968582236/" target="_blank">Link</a>
+            <img src="images/Insta.png" alt="Insta" class="contactImg">
+            <a href="https://www.instagram.com/" target="_blank">Link</a>
+        </div>
+    </div>
+
+</body>
+</html>

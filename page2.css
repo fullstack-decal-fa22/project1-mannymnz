@@ -1,0 +1,88 @@
+.page2 {
+    background-color:   #EE4E34;
+    height: 850px;
+    position: relative;
+    bottom: 68px;
+
+}
+.clubLabel1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    left: 20%;
+    color: black;
+}
+.clubLabel2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    left: 40%;
+    color: black;
+}
+.workBox {
+    position: relative;
+    left: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 50%;
+}
+.clubLogoContainer {
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    color: white;
+}
+.clubImg {
+    position: relative;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: #FCEDDA;
+    border-radius: 10px;
+}
+.clubHeader {
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    background-color:#FCEDDA;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+}
+.clubDescriptions {
+    position: relative;
+    top: 7px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    text-align: center;
+}
+.description {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    height: 190px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #FCEDDA;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+.projectContainer {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 400px;
+    width: 100px;
+    background-color: #FCEDDA;
+}
+.projectLogo {
+    margin-left: 40px;
+    color: black;
+}

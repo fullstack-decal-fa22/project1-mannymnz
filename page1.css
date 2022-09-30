@@ -1,0 +1,129 @@
+* {
+    color: black;
+}
+body {
+    overflow-x: hidden;
+    font-family: Verdana;
+    margin: 0;
+}
+.linkBox {
+    position: sticky;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(27, 25, 25);
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+    margin: 10px;
+    z-index: 10;
+}
+.box1 {
+    position: fixed;
+    left: 90%;
+    top: 0px;
+}
+.box2 {
+    position: fixed;
+    left: 81%;
+    top: 0px;
+}
+.box3 {
+    position: fixed;
+    left: 72%;
+    top: 0px;
+}
+.bearImg {
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    padding: 10px;
+}
+#self_pic {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 150px;
+    left: 55%;
+    background-color: black;
+    padding: 35px;
+    border-radius: 30px;
+}
+#aboutContainer {
+    font-family: Verdana;
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    left: 20%;
+}
+.scrollForMore {
+    text-align: center;
+    font-size: 16px;
+}
+.leftBackground {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 68%;
+    background-color: #00539CFF;
+    z-index: -1;
+}
+.rightBackground { 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 32%;
+    background-color: #EEA47FFF;
+    z-index: -1;
+}
+.contactMe {
+    background-color:rgb(27, 25, 25);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mysteryButton {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    z-index: 100;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Verdana;
+}
+.randomLink {
+    color: black;
+    z-index: 3;
+    font-size: 17px;
+    position: relative;
+    left: 90%;
+    top: 70px;
+}
+.box1:hover {
+    background-color: white;
+    color: black;
+}
+.box2:hover {
+    background-color: white;
+    color: black;
+}
+.box3:hover {
+    background-color: white;
+    color: black;
+}
+.darkMode {
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+    width: 100px;
+    z-index: 9;
+}
+.checkBox {
+    position:relative;
+    bottom: 50px;
+    left: 15%
+}
